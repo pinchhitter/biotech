@@ -124,8 +124,8 @@ class ProtineExtractor{
 				String filename = "./"+directory+"/G"+count+".gnom";	
 				PrintWriter writer = new PrintWriter(filename, "UTF-8");
 				writer.println( "Total Aminoacid: "+( seqCount - 2 ) );
-				writer.println( "Start Index: "+startIndex );
-				writer.println( "End Index: "+lastIndex );
+				writer.println( "Start Nucleotide Number: "+startIndex );
+				writer.println( "End Nucleotide Number: "+lastIndex );
 				//writer.println( genomSeq.toString().trim() );
 				writer.println( genomMapSeq.toString().trim() );
 				writer.close();	
